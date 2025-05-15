@@ -12,6 +12,8 @@ What does this code do?
 
 NECESSARY PACKAGES
 
+    Hello, world!
+
 PLOTTING COORDINATES
 
 Where do you start?
