@@ -102,7 +102,7 @@ already set.
 *NOTE: In Lines 113 - 121, there is commented out code to plot and save a frequency vs. power line plot without averaging the events per minute.
 This is meant to be an extra check before the spectrogram, to confirm that weather balloon signals exist in the run. This code plots frequency on
 the x-axis in GHz and power on the y-axis in db. If weather balloon signals are present, there will be a spike in power at around 0.4 GHz on the
-plot. Uncomment the code to save and view this plot.
+plot. Uncomment the code to save and view this plot. An example called "WeatherBalloon.pdf" is provided in the repository.
 
 CREATING THE SPECTROGRAM 
     The next section of the code assigns the values contained in all_yvals to the color axis. It does this by using the axs.imshow() function from
@@ -117,4 +117,4 @@ BONUS: multirun.py
     The file multirun.py contains an example of code that strings two runs together and plots them on the same spectrogram, as if they were one run.
 The main points to note when doing this are that you have to copy the code that sets the station and run and extracts the data (Lines 11 - 41 in
 multirun.py) for each run you want to plot. Also be sure to specifically designate all_xvals and all_yvals array to the run they correspond to. They 
-are strung together right before plotting using np.concatenate().
+are strung together right before plotting using np.concatenate(). An example called "MultiRun.pdf" is provided in the repository.
