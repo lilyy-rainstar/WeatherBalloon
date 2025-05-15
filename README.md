@@ -12,8 +12,6 @@ What does this code do?
 
 NECESSARY PACKAGES
 
-    The Python file "weatherballoon_fixed" employs many, many packages. The package mattak.Dataset is a module that contains the information stored on RNO-G, and the time package gets the default time from the datasest (this is important for performing the FFT). numpy is also included for numerical evaluations. argparse is for parsing RNO-G arguments such as the run and station. uproot is for reading ROOT files, and matplotlib.pyplot is needed for making plots. gpxpy, gpxpy.gpx, and gzip are for unzipping and reading the .gpx.gz files containing weather balloon coordinates. pandas is for reading in the RNO-G station information, and math is for one operation that rounds the number of minutes up to the next integer.
-
 PLOTTING COORDINATES
 
 Where do you start?
