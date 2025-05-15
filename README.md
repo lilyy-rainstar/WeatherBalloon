@@ -20,7 +20,7 @@ will be picked up and shown at around 400 MHz on the plot.
 
 NECESSARY PACKAGES
 
-    weatherballoon_fixed.py employs many, many packages. The package mattak.Dataset is a module that contains the information stored on RNO-G, and 
+    "weatherballoon_fixed.py" employs many, many packages. The package mattak.Dataset is a module that contains the information stored on RNO-G, and 
 the time package gets the default time from the datasest (this is important for performing the FFT). numpy is also included for numerical 
 evaluations. argparse is for parsing RNO-G arguments such as the run and station. uproot is for reading ROOT files, and matplotlib.pyplot is needed 
 for making plots. gpxpy, gpxpy.gpx, and gzip are for unzipping and reading the .gpx.gz files containing weather balloon coordinates. pandas is for 
