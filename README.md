@@ -39,7 +39,7 @@ How do you find the run with a weather balloon?
 
 SORTING BY MINUTE
 
-    The code then sorts the times in "secs" into minutes, then uses these to sort the corresponding event numbers into minutes. This outputs the list "M", which contains lists for each minute in the run. Each list in "M" contains the events that occur in that minute. Some minutes will be empty, and there is a check applied later to account for minutes with len(M[j]) == 0.
+    The code then sorts the times in "secs" into minutes, then uses these to sort the corresponding event numbers into minutes. This outputs the list "M", which contains lists for each minute in the run. Each list in "M" contains the events that occur in that minute. Some minutes will be empty, and there is a check applied later to account for minutes with no length.
 
 AVERAGING FREQUENCY AND POWER PER MINUTE
 
